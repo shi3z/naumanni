@@ -17,6 +17,13 @@ Naumanniの特徴は以下の通り
 * AIを利用した攻撃的なTootの自動CW機能(6/10実装予定/日本語のみ)
 * AIを利用したNSFW自動判定機能(今夏実装予定)
 
+# Alpha Release
+
+Naumanniはα版です。現在判明している問題点は以下の通り
+
+* メッセージに全フォロワーが表示されない
+* メッセージのフォロワーが適切な順番でソートされていない
+
 # Who made this?
 
 Naummanniは(株)UEIと(株)glucoseの共同開発プロジェクトです
@@ -24,7 +31,9 @@ Naummanniは(株)UEIと(株)glucoseの共同開発プロジェクトです
 * Concept and AI: shi3z@mstdn.onosendai.jp
 * Code : shn@oppai.tokyo
 
-# Dependency
+# Setup
+
+## Dependency
 
 yarn
 docker >=  17.03
